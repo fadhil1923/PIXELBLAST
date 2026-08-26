@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PIXELBLAST — Urban Streetwear | Solo, 2025</title>
+  <meta name="description" content="PIXELBLAST adalah brand casual streetwear dari Solo, lahir 2025. Temukan koleksi hoodie, tshirt, jacket, dan aksesoris urban terbaik." />
+  <meta name="keywords" content="streetwear solo, brand casual indonesia, PIXELBLAST, baju distro solo, hoodie urban" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========== TOP BAR =========== -->
+  <div class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <span class="topbar-text">🔥 FREE ONGKIR se-Indonesia untuk pembelian di atas Rp200.000 · Koleksi SS25 sudah tersedia!</span>
+    </div>
+  </div>
+
+  <!-- =========== NAVBAR =========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#" class="nav-logo" id="logo-link">
+        <div class="logo-mark">NL</div>
+        <div class="logo-text">
+          <span class="logo-brand">PIXELBLAST</span>
+          <span class="logo-sub">SOLO · EST. 2025</span>
+        </div>
+      </a>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#categories" class="nav-link">Kategori</a></li>
+        <li class="nav-dropdown">
+          <a href="#products" class="nav-link">Koleksi <span class="arrow">▾</span></a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">SS25 — New Arrivals</a>
+            <a href="#" class="dropdown-item">Hoodies &amp; Sweatshirts</a>
+            <a href="#" class="dropdown-item">T-Shirts &amp; Tops</a>
+            <a href="#" class="dropdown-item">Jackets &amp; Outerwear</a>
+            <a href="#" class="dropdown-item">Cargo &amp; Pants</a>
+            <a href="#" class="dropdown-item">Aksesoris</a>
+          </div>
+        </li>
+        <li><a href="#reviews" class="nav-link">Ulasan</a></li>
+        <li><a href="#footer" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <!-- Search Bar -->
+      <div class="nav-search" id="nav-search-wrap">
+        <input type="text" class="search-input" id="search-input" placeholder="Cari produk..." />
+        <button class="search-btn" id="search-btn" aria-label="Cari">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+      </div>
+
+      <!-- Right Icons -->
+      <div class="nav-icons">
+        <button class="icon-btn" id="wishlist-btn" aria-label="Wishlist" title="Wishlist">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cart-btn" aria-label="Keranjang" title="Keranjang">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-badge" id="cart-count">3</span>
+        </button>
+        <button class="icon-btn notif-btn" id="notif-btn" aria-label="Notifikasi" title="Notifikasi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <span class="notif-dot"></span>
+        </button>
+        <button class="icon-btn account-btn" id="account-btn" aria-label="Akun" title="Akun">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========== HERO SECTION =========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\hero_banner_1787761418152.jpg" alt="PIXELBLAST Hero Banner" class="hero-img" id="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <!-- Left: Value Proposition -->
+      <div class="hero-left" id="hero-left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          <span>KOLEKSI SS25 — TERSEDIA SEKARANG</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">DARI</span>
+          <span class="title-line accent">SOLO,</span>
+          <span class="title-line">UNTUK</span>
+          <span class="title-line">DUNIA.</span>
+        </h1>
+        <p class="hero-desc">
+          Streetwear autentik yang lahir dari jiwa kota Solo — dirancang untuk mereka yang hidup tanpa batas. Kualitas premium, harga terjangkau.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#products" class="btn-primary" id="cta-shop">
+            <span>BELANJA SEKARANG</span>
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+          <a href="#categories" class="btn-outline" id="cta-explore">Lihat Koleksi</a>
+        </div>
+        <div class="hero-tags">
+          <span class="tag">#UrbanSolo</span>
+          <span class="tag">#Streetwear</span>
+          <span class="tag">#EstSolo2025</span>
+        </div>
+      </div>
+
+      <!-- Right: Mini Widget Cards -->
+      <div class="hero-right" id="hero-widgets">
+        <div class="widget-card" id="widget-sold">
+          <div class="widget-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="widget-data">
+            <div class="widget-number" id="count-sold">0</div>
+            <div class="widget-label">Produk Terjual</div>
+            <div class="widget-sub">+2.3k bulan ini</div>
+          </div>
+        </div>
+
+        <div class="widget-card" id="widget-rating">
+          <div class="widget-icon rating-icon">
+            <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="widget-data">
+            <div class="widget-number">4.9<span class="widget-unit">/5</span></div>
+            <div class="widget-label">Rating Pelanggan</div>
+            <div class="widget-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="widget-card promo-card" id="widget-promo">
+          <div class="promo-badge">🔥 PROMO HARI INI</div>
+          <div class="promo-title">DISKON 30%</div>
+          <div class="promo-desc">Semua item Hoodie Collection</div>
+          <div class="promo-countdown" id="countdown-display">
+            <div class="count-box"><span id="cnt-h">08</span><small>Jam</small></div>
+            <div class="count-sep">:</div>
+            <div class="count-box"><span id="cnt-m">24</span><small>Menit</small></div>
+            <div class="count-sep">:</div>
+            <div class="count-box"><span id="cnt-s">00</span><small>Detik</small></div>
+          </div>
+          <a href="#products" class="promo-btn">KLAIM PROMO</a>
+        </div>
+
+        <div class="widget-card" id="widget-members">
+          <div class="widget-icon members-icon">
+            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="widget-data">
+            <div class="widget-number" id="count-members">0</div>
+            <div class="widget-label">Member Aktif</div>
+            <div class="widget-sub">Bergabung gratis!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- =========== BRAND STRIP =========== -->
+  <div class="brand-strip">
+    <div class="strip-inner">
+      <span>URBAN STREETWEAR</span>
+      <span class="strip-dot">◆</span>
+      <span>SOLO ORIGIN</span>
+      <span class="strip-dot">◆</span>
+      <span>EST. 2025</span>
+      <span class="strip-dot">◆</span>
+      <span>PREMIUM QUALITY</span>
+      <span class="strip-dot">◆</span>
+      <span>FREE ONGKIR</span>
+      <span class="strip-dot">◆</span>
+      <span>URBAN STREETWEAR</span>
+      <span class="strip-dot">◆</span>
+      <span>SOLO ORIGIN</span>
+      <span class="strip-dot">◆</span>
+      <span>EST. 2025</span>
+      <span class="strip-dot">◆</span>
+      <span>PREMIUM QUALITY</span>
+      <span class="strip-dot">◆</span>
+      <span>FREE ONGKIR</span>
+      <span class="strip-dot">◆</span>
+    </div>
+  </div>
+
+  <!-- =========== CATEGORIES SECTION =========== -->
+  <section class="section categories-section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">JELAJAHI KOLEKSI</div>
+        <h2 class="section-title">Kategori Produk</h2>
+        <p class="section-desc">Temukan gaya terbaik kamu dari berbagai koleksi eksklusif PIXELBLAST</p>
+      </div>
+
+      <div class="categories-grid" id="cat-grid">
+        <div class="cat-card cat-men" id="cat-men">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_hoodie_1787761455996.jpg" alt="Koleksi Pria" class="cat-img" />
+            <div class="cat-overlay">
+              <div class="cat-content">
+                <div class="cat-icon">👔</div>
+                <h3 class="cat-name">PRIA</h3>
+                <p class="cat-count">48 Produk</p>
+                <a href="#" class="cat-btn">Lihat Semua →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-card cat-women" id="cat-women">
+          <div class="cat-img-wrap">
+            <div class="cat-img cat-img-gradient cat-women-grad"></div>
+            <div class="cat-overlay">
+              <div class="cat-content">
+                <div class="cat-icon">👗</div>
+                <h3 class="cat-name">WANITA</h3>
+                <p class="cat-count">36 Produk</p>
+                <a href="#" class="cat-btn">Lihat Semua →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-card cat-jacket" id="cat-jacket">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_jacket_1787761485609.jpg" alt="Jacket" class="cat-img" />
+            <div class="cat-overlay">
+              <div class="cat-content">
+                <div class="cat-icon">🧥</div>
+                <h3 class="cat-name">JACKET</h3>
+                <p class="cat-count">22 Produk</p>
+                <a href="#" class="cat-btn">Lihat Semua →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-card cat-acc" id="cat-acc">
+          <div class="cat-img-wrap">
+            <div class="cat-img cat-img-gradient cat-acc-grad"></div>
+            <div class="cat-overlay">
+              <div class="cat-content">
+                <div class="cat-icon">🧢</div>
+                <h3 class="cat-name">AKSESORIS</h3>
+                <p class="cat-count">64 Produk</p>
+                <a href="#" class="cat-btn">Lihat Semua →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-card cat-limited" id="cat-limited">
+          <div class="cat-img-wrap">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_tshirt_1787761472445.jpg" alt="Limited Edition" class="cat-img" />
+            <div class="cat-overlay">
+              <div class="cat-content">
+                <div class="cat-badge-ltd">LIMITED</div>
+                <div class="cat-icon">⚡</div>
+                <h3 class="cat-name">LIMITED ED.</h3>
+                <p class="cat-count">12 Produk</p>
+                <a href="#" class="cat-btn">Lihat Semua →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== PRODUCTS SECTION =========== -->
+  <section class="section products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">PALING BANYAK DIBELI</div>
+        <h2 class="section-title">Produk Terlaris</h2>
+        <p class="section-desc">Pilihan terbaik dari koleksi SS25 yang paling diminati pelanggan kami</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs" id="filter-tabs">
+        <button class="filter-tab active" data-filter="all" id="tab-all">Semua</button>
+        <button class="filter-tab" data-filter="hoodie" id="tab-hoodie">Hoodie</button>
+        <button class="filter-tab" data-filter="tshirt" id="tab-tshirt">T-Shirt</button>
+        <button class="filter-tab" data-filter="jacket" id="tab-jacket">Jacket</button>
+        <button class="filter-tab" data-filter="pants" id="tab-pants">Pants</button>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button class="slider-arrow" id="slide-prev" aria-label="Previous">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="slider-arrow" id="slide-next" aria-label="Next">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <!-- Products Slider -->
+      <div class="products-slider-wrap">
+        <div class="products-slider" id="products-slider">
+
+          <!-- Product Card 1 -->
+          <div class="product-card" data-category="hoodie" id="prod-1">
+            <div class="product-img-wrap">
+              <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_hoodie_1787761455996.jpg" alt="Urban Chaos Hoodie" class="product-img" />
+              <div class="product-badges">
+                <span class="badge-hot">🔥 TERLARIS</span>
+              </div>
+              <div class="product-actions">
+                <button class="action-btn wishlist-btn" title="Wishlist" aria-label="Tambah wishlist">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </button>
+                <button class="action-btn quickview-btn" title="Quick View" aria-label="Quick view">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category-tag">Hoodie</div>
+              <h3 class="product-name">Urban Chaos Oversized Hoodie</h3>
+              <div class="product-rating">★★★★★ <span>(247)</span></div>
+              <div class="product-price-row">
+                <span class="product-price">Rp 289.000</span>
+                <span class="product-orig">Rp 389.000</span>
+                <span class="product-disc">-26%</span>
+              </div>
+              <button class="add-cart-btn" id="add-cart-1">+ Keranjang</button>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="product-card" data-category="tshirt" id="prod-2">
+            <div class="product-img-wrap">
+              <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_tshirt_1787761472445.jpg" alt="Praja Tiger Tee" class="product-img" />
+              <div class="product-badges">
+                <span class="badge-new">✦ NEW</span>
+              </div>
+              <div class="product-actions">
+                <button class="action-btn wishlist-btn" title="Wishlist" aria-label="Tambah wishlist">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </button>
+                <button class="action-btn quickview-btn" title="Quick View" aria-label="Quick view">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category-tag">T-Shirt</div>
+              <h3 class="product-name">Praja Tiger Graphic Tee</h3>
+              <div class="product-rating">★★★★★ <span>(183)</span></div>
+              <div class="product-price-row">
+                <span class="product-price">Rp 159.000</span>
+              </div>
+              <button class="add-cart-btn" id="add-cart-2">+ Keranjang</button>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="product-card" data-category="jacket" id="prod-3">
+            <div class="product-img-wrap">
+              <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_jacket_1787761485609.jpg" alt="Orbit Cargo Jacket" class="product-img" />
+              <div class="product-badges">
+                <span class="badge-hot">🔥 TERLARIS</span>
+              </div>
+              <div class="product-actions">
+                <button class="action-btn wishlist-btn" title="Wishlist" aria-label="Tambah wishlist">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </button>
+                <button class="action-btn quickview-btn" title="Quick View" aria-label="Quick view">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category-tag">Jacket</div>
+              <h3 class="product-name">Orbit Outdoor Cargo Jacket</h3>
+              <div class="product-rating">★★★★☆ <span>(94)</span></div>
+              <div class="product-price-row">
+                <span class="product-price">Rp 459.000</span>
+                <span class="product-orig">Rp 599.000</span>
+                <span class="product-disc">-23%</span>
+              </div>
+              <button class="add-cart-btn" id="add-cart-3">+ Keranjang</button>
+            </div>
+          </div>
+
+          <!-- Product Card 4 -->
+          <div class="product-card" data-category="pants" id="prod-4">
+            <div class="product-img-wrap">
+              <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_pants_1787761501135.jpg" alt="Night Cargo Pants" class="product-img" />
+              <div class="product-badges">
+                <span class="badge-ltd">⚡ LIMITED</span>
+              </div>
+              <div class="product-actions">
+                <button class="action-btn wishlist-btn" title="Wishlist" aria-label="Tambah wishlist">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </button>
+                <button class="action-btn quickview-btn" title="Quick View" aria-label="Quick view">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category-tag">Pants</div>
+              <h3 class="product-name">Night Archive Cargo Pants</h3>
+              <div class="product-rating">★★★★★ <span>(156)</span></div>
+              <div class="product-price-row">
+                <span class="product-price">Rp 329.000</span>
+              </div>
+              <button class="add-cart-btn" id="add-cart-4">+ Keranjang</button>
+            </div>
+          </div>
+
+          <!-- Product Card 5 — clone for full slider -->
+          <div class="product-card" data-category="hoodie" id="prod-5">
+            <div class="product-img-wrap">
+              <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_pants_1787761501135.jpg" alt="Archive Hoodie" class="product-img" />
+              <div class="product-actions">
+                <button class="action-btn wishlist-btn" title="Wishlist" aria-label="Tambah wishlist">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </button>
+                <button class="action-btn quickview-btn" title="Quick View" aria-label="Quick view">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category-tag">Hoodie</div>
+              <h3 class="product-name">Archive Vol.01 Pullover Hoodie</h3>
+              <div class="product-rating">★★★★☆ <span>(71)</span></div>
+              <div class="product-price-row">
+                <span class="product-price">Rp 259.000</span>
+                <span class="product-orig">Rp 320.000</span>
+                <span class="product-disc">-19%</span>
+              </div>
+              <button class="add-cart-btn" id="add-cart-5">+ Keranjang</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots" id="slider-dots">
+        <span class="dot active" id="dot-0"></span>
+        <span class="dot" id="dot-1"></span>
+        <span class="dot" id="dot-2"></span>
+        <span class="dot" id="dot-3"></span>
+      </div>
+
+      <div class="view-all-wrap">
+        <a href="#" class="btn-outline-lg" id="view-all-btn">LIHAT SEMUA PRODUK →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== PROMO BANNER =========== -->
+  <section class="promo-banner-section" id="promo-banner">
+    <div class="promo-banner-inner">
+      <div class="pb-text">
+        <div class="pb-eyebrow">KOLEKSI MUSIM INI</div>
+        <h2 class="pb-title">SUMMER/SPRING 2025</h2>
+        <p class="pb-desc">Koleksi terbaru PIXELBLAST terinspirasi dari keindahan malam kota Solo — urban, rawat, autentik.</p>
+        <a href="#" class="btn-primary" id="pb-cta">LIHAT LOOKBOOK</a>
+      </div>
+      <div class="pb-stats">
+        <div class="pb-stat">
+          <div class="pb-num" id="stat-products">0</div>
+          <div class="pb-label">Total Produk</div>
+        </div>
+        <div class="pb-divider"></div>
+        <div class="pb-stat">
+          <div class="pb-num" id="stat-customers">0</div>
+          <div class="pb-label">Pelanggan Puas</div>
+        </div>
+        <div class="pb-divider"></div>
+        <div class="pb-stat">
+          <div class="pb-num" id="stat-cities">0</div>
+          <div class="pb-label">Kota Pengiriman</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== REVIEWS SECTION =========== -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">KATA MEREKA</div>
+        <h2 class="section-title">Ulasan Pelanggan</h2>
+        <p class="section-desc">Ribuan pelanggan puas berbicara — baca pengalaman mereka</p>
+      </div>
+
+      <!-- Overall Rating -->
+      <div class="overall-rating" id="overall-rating">
+        <div class="or-score">
+          <div class="or-number">4.9</div>
+          <div class="or-stars">★★★★★</div>
+          <div class="or-count">dari 1.247 ulasan</div>
+        </div>
+        <div class="or-bars">
+          <div class="or-bar-row">
+            <span class="or-bar-label">5 ★</span>
+            <div class="or-bar-wrap"><div class="or-bar" style="width:87%"></div></div>
+            <span class="or-bar-pct">87%</span>
+          </div>
+          <div class="or-bar-row">
+            <span class="or-bar-label">4 ★</span>
+            <div class="or-bar-wrap"><div class="or-bar" style="width:9%"></div></div>
+            <span class="or-bar-pct">9%</span>
+          </div>
+          <div class="or-bar-row">
+            <span class="or-bar-label">3 ★</span>
+            <div class="or-bar-wrap"><div class="or-bar" style="width:3%"></div></div>
+            <span class="or-bar-pct">3%</span>
+          </div>
+          <div class="or-bar-row">
+            <span class="or-bar-label">2 ★</span>
+            <div class="or-bar-wrap"><div class="or-bar" style="width:1%"></div></div>
+            <span class="or-bar-pct">1%</span>
+          </div>
+          <div class="or-bar-row">
+            <span class="or-bar-label">1 ★</span>
+            <div class="or-bar-wrap"><div class="or-bar" style="width:0%"></div></div>
+            <span class="or-bar-pct">0%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reviews Grid -->
+      <div class="reviews-grid" id="reviews-grid">
+
+        <div class="review-card" id="review-1">
+          <div class="review-header">
+            <div class="reviewer-avatar">FR</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Farhan R.</div>
+              <div class="reviewer-loc">📍 Surakarta</div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Bahan hoodie-nya tebal banget, ga tipis-tipis murahan. Warna juga tetap pekat abis dicuci berkali-kali. Worth it banget buat harganya!"</p>
+          <div class="review-product">Urban Chaos Oversized Hoodie</div>
+          <div class="review-date">15 Agustus 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+        <div class="review-card featured" id="review-2">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg,#f97316,#ea580c);">AS</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Anisa S.</div>
+              <div class="reviewer-loc">📍 Yogyakarta</div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"PIXELBLAST emang beda dari brand lokal lain. Desainnya aesthetic banget, cocok buat daily wear maupun hangout. Udah beli 3x dan pasti balik lagi!"</p>
+          <div class="review-product">Praja Tiger Graphic Tee</div>
+          <div class="review-date">3 September 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+        <div class="review-card" id="review-3">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg,#6366f1,#4f46e5);">DK</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Dimas K.</div>
+              <div class="reviewer-loc">📍 Semarang</div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Jacket-nya kualitas premium, jahitannya rapi. Pengiriman cepat, packing aman. Customer service juga responsif. Mantap!"</p>
+          <div class="review-product">Orbit Outdoor Cargo Jacket</div>
+          <div class="review-date">21 Juli 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+        <div class="review-card" id="review-4">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg,#10b981,#059669);">NP</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Nurul P.</div>
+              <div class="reviewer-loc">📍 Jakarta</div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Suka banget sama konsep brand-nya, hometown pride dari Solo. Cargo pants-nya comfy dipakai seharian, banyak kantong juga praktis!"</p>
+          <div class="review-product">Night Archive Cargo Pants</div>
+          <div class="review-date">10 Oktober 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+        <div class="review-card" id="review-5">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg,#f59e0b,#d97706);">RW</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Raka W.</div>
+              <div class="reviewer-loc">📍 Bandung</div>
+            </div>
+            <div class="review-stars">★★★★☆</div>
+          </div>
+          <p class="review-text">"Grafis tshirt-nya detail dan tajam, nggak blur. Udah dicuci 5x masih oke. Harga sebanding kualitas, recommended untuk teman-teman semua!"</p>
+          <div class="review-product">Praja Tiger Graphic Tee</div>
+          <div class="review-date">28 Juni 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+        <div class="review-card" id="review-6">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg,#ec4899,#db2777);">LA</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Lita A.</div>
+              <div class="reviewer-loc">📍 Surabaya</div>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Brand lokal yang bener-bener bikin proud. Aesthetic-nya dark tapi elegant, pas banget sama vibe aku. Bakal terus support PIXELBLAST!"</p>
+          <div class="review-product">Urban Chaos Oversized Hoodie</div>
+          <div class="review-date">5 November 2025</div>
+          <div class="review-verified">✓ Pembelian Terverifikasi</div>
+        </div>
+
+      </div>
+
+      <!-- Instagram Feed -->
+      <div class="insta-section" id="insta-section">
+        <div class="insta-header">
+          <div class="insta-title">
+            <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            @PIXELBLAST.solo
+          </div>
+          <a href="#" class="insta-follow">Follow Kami</a>
+        </div>
+        <div class="insta-grid" id="insta-grid">
+          <div class="insta-post" id="ig-1" style="background: linear-gradient(135deg, #1a1a1a, #2d1b0e);">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_hoodie_1787761455996.jpg" alt="Instagram post 1" />
+            <div class="insta-overlay"><span>❤ 1.2k</span></div>
+          </div>
+          <div class="insta-post" id="ig-2">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_tshirt_1787761472445.jpg" alt="Instagram post 2" />
+            <div class="insta-overlay"><span>❤ 987</span></div>
+          </div>
+          <div class="insta-post" id="ig-3">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_jacket_1787761485609.jpg" alt="Instagram post 3" />
+            <div class="insta-overlay"><span>❤ 2.1k</span></div>
+          </div>
+          <div class="insta-post" id="ig-4">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_pants_1787761501135.jpg" alt="Instagram post 4" />
+            <div class="insta-overlay"><span>❤ 843</span></div>
+          </div>
+          <div class="insta-post" id="ig-5">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_hoodie_1787761455996.jpg" alt="Instagram post 5" />
+            <div class="insta-overlay"><span>❤ 1.5k</span></div>
+          </div>
+          <div class="insta-post" id="ig-6">
+            <img src="C:\Users\ASUS\.gemini\antigravity-ide\brain\f0542c92-bd3f-41d3-a2cf-9fc07616fc12\product_tshirt_1787761472445.jpg" alt="Instagram post 6" />
+            <div class="insta-overlay"><span>❤ 673</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== NEWSLETTER =========== -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="newsletter-inner">
+      <div class="nl-icon">✉</div>
+      <h2 class="nl-title">BERGABUNG DENGAN PIXELBLAST</h2>
+      <p class="nl-desc">Daftarkan email kamu dan dapatkan akses eksklusif ke koleksi terbaru, promo member, dan info drop limited edition lebih awal.</p>
+      <form class="nl-form" id="nl-form">
+        <input type="email" id="nl-email" class="nl-input" placeholder="Masukkan email kamu..." required />
+        <button type="submit" class="nl-btn" id="nl-submit">SUBSCRIBE</button>
+      </form>
+      <p class="nl-note">Tidak ada spam. Unsubscribe kapan saja.</p>
+    </div>
+  </section>
+
+  <!-- =========== FOOTER =========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="footer-container">
+
+        <!-- Brand Column -->
+        <div class="footer-col footer-brand-col">
+          <div class="footer-logo">
+            <div class="logo-mark">NL</div>
+            <div class="logo-text">
+              <span class="logo-brand">PIXELBLAST</span>
+              <span class="logo-sub">SOLO · EST. 2025</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Brand casual streetwear asal Solo yang lahir dari semangat anak muda — untuk mereka yang berani tampil beda setiap hari.
+          </p>
+          <div class="footer-social" id="footer-social">
+            <a href="#" class="social-link" id="social-ig" aria-label="Instagram">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-tiktok" aria-label="TikTok">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-wa" aria-label="WhatsApp">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-shopee" aria-label="Shopee">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </a>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.09 6.09l1.07-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +62 812-3456-7890
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              hello@PIXELBLAST.id
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Surakarta, Jawa Tengah
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">KOLEKSI</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">New Arrivals SS25</a></li>
+            <li><a href="#" class="footer-link">Hoodies &amp; Sweatshirts</a></li>
+            <li><a href="#" class="footer-link">T-Shirts &amp; Graphic Tees</a></li>
+            <li><a href="#" class="footer-link">Jackets &amp; Outerwear</a></li>
+            <li><a href="#" class="footer-link">Cargo &amp; Pants</a></li>
+            <li><a href="#" class="footer-link">Aksesoris</a></li>
+            <li><a href="#" class="footer-link">Limited Edition</a></li>
+          </ul>
+        </div>
+
+        <!-- Help -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">BANTUAN</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link" id="faq-link">FAQ — Pertanyaan Umum</a></li>
+            <li><a href="#" class="footer-link" id="track-link">Lacak Pesanan</a></li>
+            <li><a href="#" class="footer-link" id="return-link">Kebijakan Pengembalian</a></li>
+            <li><a href="#" class="footer-link">Panduan Ukuran</a></li>
+            <li><a href="#" class="footer-link">Cara Pembayaran</a></li>
+            <li><a href="#" class="footer-link">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- About -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">PERUSAHAAN</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Tentang PIXELBLAST</a></li>
+            <li><a href="#" class="footer-link">Kisah Kami</a></li>
+            <li><a href="#" class="footer-link">Karir</a></li>
+            <li><a href="#" class="footer-link">Press &amp; Media</a></li>
+            <li><a href="#" class="footer-link">Afiliasi &amp; Reseller</a></li>
+          </ul>
+          <div class="footer-payment">
+            <h4 class="footer-col-title" style="margin-top:1.5rem;">PEMBAYARAN</h4>
+            <div class="payment-icons">
+              <span class="pay-icon">VISA</span>
+              <span class="pay-icon">GoPay</span>
+              <span class="pay-icon">OVO</span>
+              <span class="pay-icon">Dana</span>
+              <span class="pay-icon">BCA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <span>© 2025 PIXELBLAST. All Rights Reserved. Made with ❤ in Solo, Indonesia.</span>
+        <div class="footer-legal">
+          <a href="#" class="legal-link">Syarat &amp; Ketentuan</a>
+          <a href="#" class="legal-link">Kebijakan Privasi</a>
+          <a href="#" class="legal-link">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-sidebar-inner">
+      <div class="cart-header">
+        <h3>Keranjang Belanja</h3>
+        <button class="cart-close" id="cart-close" aria-label="Tutup keranjang">✕</button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <div class="cart-empty" id="cart-empty">
+          <div class="cart-empty-icon">🛒</div>
+          <p>Keranjang kamu masih kosong</p>
+          <a href="#products" class="btn-primary" style="font-size:0.85rem;padding:0.6rem 1.5rem;" id="cart-shop-btn">MULAI BELANJA</a>
+        </div>
+      </div>
+      <div class="cart-footer" id="cart-footer" style="display:none;">
+        <div class="cart-total">
+          Total: <span id="cart-total-price">Rp 0</span>
+        </div>
+        <button class="btn-primary" id="checkout-btn" style="width:100%;">CHECKOUT SEKARANG</button>
+      </div>
+    </div>
+  </div>
+  <div class="cart-overlay" id="cart-overlay"></div>
+
+  <!-- Back to top -->
+  <button class="back-top" id="back-top" aria-label="Kembali ke atas">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
